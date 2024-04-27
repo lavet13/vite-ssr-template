@@ -1,5 +1,6 @@
 import { Suspense, lazy } from 'react';
 import { Route, Routes } from 'react-router-dom';
+import './App.css';
 
 const Loadable =
   (Component: React.ComponentType) => (props: JSX.IntrinsicAttributes) => (

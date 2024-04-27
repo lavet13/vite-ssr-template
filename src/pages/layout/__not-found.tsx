@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import '../../App.css';
+import '../../test.css';
 
 const NotFound: FC = () => {
   return <h1 style={{textAlign: "center"}}>Not Found</h1>
